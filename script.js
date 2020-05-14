@@ -6,7 +6,7 @@ $(document).ready(function() {
         event.preventDefault(); // prevent PageReLoad
         
 
-       var ValidEmail = $('#username').val() === 'invitades'; // User validate
+       var ValidEmail = $('#username').val() === 'invitados'; // User validate
        var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
        var DinoInHouse = $('#username').val() === 'dino'
 
@@ -15,7 +15,7 @@ $(document).ready(function() {
            // window.location = "https://www.preguntaleajlc.com/aifrein.html"; // go to home.html
         }
         else if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
-           // $('.panel').css('display', 'none');
+            $('.panel').css('display', 'none');
             $('.valid').css('display', 'block');
 
             //window.location = "https://duckduckgo.com"; // go to home.html
