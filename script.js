@@ -15,7 +15,9 @@ $(document).ready(function() {
         }
         else if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');
-            window.location = "https://duckduckgo.com"; // go to home.html
+
+            //window.location = "https://duckduckgo.com"; // go to home.html
+            setTimeout(function(){ window.location.href= 'https://duckduckgo.com';}, 1500);
         }
         else {
             $('.error').css('display', 'block'); // show error msg
