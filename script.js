@@ -17,7 +17,7 @@ $(document).ready(function() {
             $('.valid').css('display', 'block');
 
             //window.location = "https://duckduckgo.com"; // go to home.html
-            setTimeout(function(){ window.location.href= 'https://www.preguntaleajlc.com/aifrein.html"';}, 3000);
+            setTimeout(function(){ window.location.href= 'https://www.preguntaleajlc.com/aifrein.html';}, 3000);
         }
         else {
             $('.error').css('display', 'block'); // show error msg
