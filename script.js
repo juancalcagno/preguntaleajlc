@@ -15,7 +15,7 @@ $(document).ready(function() {
            // window.location = "https://www.preguntaleajlc.com/aifrein.html"; // go to home.html
         }
         else if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
-            $('.panel').css('display', 'none');
+           // $('.panel').css('display', 'none');
             $('.valid').css('display', 'block');
 
             //window.location = "https://duckduckgo.com"; // go to home.html
