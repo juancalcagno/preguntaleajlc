@@ -2,13 +2,30 @@
     <header>
 
     </header>
-    <body> <!--input>
+
+    <style>
+        body {
+          background-image: url('images/neco.jpeg');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%;
+        }
+    </style>
+    <style>
+        h90 { color: rgb(255, 255, 255); font-size:300%; }
+      </style>
+
+    <body> 
+        
+        <!--input>
         < form action="/action_page.php">
             <label for="fpregunta">Pregunta:</label>
             <input type="text" id="fpregunta" name="fpregunta"><br><br>
             <input type="submit" value="Submit">
           </form-->
-          <h1>Su pregunta no molesta: </h1>   
-          <iframe src="https://duckduckgo.com/search.html?prefill=Dale hace la preguntonta..." style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
+          <form class="loginbox" autocomplete="off">
+          <p><h90>Su pregunta no molesta: </h90></p>
+          <iframe src="https://duckduckgo.com/search.html?prefill=Dale hace la preguntonta..." style="overflow:hidden;margin:0;padding:0;width:475px;height:40px;" frameborder="0"></iframe>
+          </form>
     </body>
 </html>
