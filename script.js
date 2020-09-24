@@ -8,8 +8,8 @@ $(document).ready(function() {
         $('.panel').css('display', 'none');    
         $('.valid').css('display', 'none');
         $('.error').css('display', 'none');
-       var ValidEmail = $('#username').val() === 'invitados'; // User validate
-       var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
+       var ValidEmail = $('#username').val() === 'magnificos'; // User validate
+       var ValidPassword = $('#password').val() === 'dino2020'; // Password validate
        var DinoInHouse = $('#username').val() === 'dino'
 
         if (DinoInHouse === true) { // if ValidEmail & ValidPassword
