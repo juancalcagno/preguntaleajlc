@@ -14,11 +14,20 @@ $(document).ready(function() {
 
         if (DinoInHouse === true) { // if ValidEmail & ValidPassword
             $('.panel').css('display', 'block');
-            $('body').css('background-image', 'url(images/NewSevenMagniquesCarlosFace.png)');
+           // $('body').css('background-image', 'url(images/NewSevenMagniquesCarlosFace.png)');
+          //  $('body').css({ "background-image": "url(images/NewSevenMagniquesCarlosFace.png)", "background-repeat": "repeat" });
+//           $('body').css({ "background-image" : "url(images/NewSevenMagniques.png)", "background-repeat" : "repeat" });
+//           $('body').css({ "background-image" : "url(images/NewSevenMagniques.png)"});
+           $('body').css('background-image', 'url("images/NewSevenMagniques.png")');
+           $('body').css("background-repeat" , "repeat-y");
+           
+            
            // window.location = "https://www.preguntaleajlc.com/aifrein.html"; // go to home.html
         }
         else if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');
+            $('body').css('background-repeat', 'no-repeat');
+            
 
             //window.location = "https://duckduckgo.com"; // go to home.html
             setTimeout(function(){ window.location.href= 'https://preguntaleajlc.com/aifreim.html';}, 3000);
